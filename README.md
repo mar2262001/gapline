@@ -1,7 +1,7 @@
-#### Emilio Martin Rodriguez Torres
+#### Emilio Martin Rodríguez Torres
 ##### 22/11/2022
 
-![Image text](images/unir.png "UNIR")
+![Image text](https://i.ibb.co/RQ3n3Rz/unir.png "UNIR")
 
 ## Computación en el cliente Web
 
@@ -53,7 +53,7 @@ ___
 
       ``` npm install -g yo generator-code typescript```
 
-      ![Image text](images/intalacionYeomman.jpg)
+      ![Image](https://i.ibb.co/QNSzX6Q/intalacion-Yeomman.jpg)
 
 
 <a name="4"></a>
@@ -65,25 +65,25 @@ ___
 
     * Con la opción code le estamos indicando a Yeoman que queremos usar el generador de extensiones para VS Code (que hemos instalado previamente mediante el paquete generator-code). Al ejecutar este comando, Yeoman nos hará varias preguntas para configurar nuestro proyecto.
 
-      ![Image text](images/yo.jpg)
+      ![Image](https://i.ibb.co/QMpPx4q/yo.jpg)
 
     * Elige TypeScript como tipo de lenguaje de desarrollo: New Extension (TypeScript).
 
-      ![Image text](images/NewExtencion(TypeScript).jpg)
+      ![Image](https://i.ibb.co/6JcBjCL/New-Extencion-Type-Script.jpg)
 
     * Luego dale un nombre a la extensión (Line Gapper) y un identificador (gapline).
 
-      ![Image text](images/name.jpg)
+      ![Image](https://i.ibb.co/Mgb1Qw8/Name.jpg)
 
     * La opción de publisher name es por si vamos a publicar la extensión en el repositorio de extensiones de VS Code, pero nosotros no vamos a hacerlo, así que podéis elegir un nombre cualquiera. 
 
-      ![Image text](images/webpack.jpg)
+      ![Image](https://i.ibb.co/Y0Lf46B/webpack.jpg)
      
     * Por último, cuando se nos pregunte si queremos iniciar un repositorio Git, decimos que no (Git se utiliza para control de versiones, que no vamos a utilizar).
 
-      ![Image text](images/gitNo.jpg)
+      ![Image](https://i.ibb.co/VxRQH8D/gitNo.jpg)
 
-      ![Image text](images/finalEstructura.jpg)
+      ![Image](https://i.ibb.co/mJHwLpk/final-Estructura.jpg)
 
 <a name="5"></a>
 - **Configurando un par de archivos antes de desarrollar la extensión**
@@ -93,7 +93,7 @@ ___
 
       `"compilerOptions": { …, "strict": false,`
 
-      ![Image](images/strictFalse.jpg)
+      ![Image](https://i.ibb.co/M9fSWFR/strict-False.jpg)
 
 
   <a name="52"></a>
@@ -106,7 +106,7 @@ ___
 
       `contributes.commands.title:Line Gapper`
 
-      ![Image](images/package.jpg)
+      ![Image](https://i.ibb.co/Bj1s4tf/package.jpg)
 
   <a name="53"></a>
   * **El archivo .eslintrc.json (opcional)**
@@ -219,17 +219,17 @@ ___
 * **Probando nuestra extensión**
   * Para ejecutar la extensión, pulsa F5 (o la tecla función + F5, dependiendo de tu teclado y sistema) o selecciona la opción de menú Start debugging del menú Debug. Verás que se abre una nueva ventana de VS Code (que ya tiene tu extensión pre cargada). Abre un fichero de texto cualquiera, selecciona su contenido y pulsa control/comando + shift + P. Se abrirá el visor de comandos de VS Code. Busca el nombre de tu extensión (tendrá el mismo nombre que hayas puesto en el campo contributes -> commands -> title en el fichero package.json o el que le diste cuando la creaste con el generador de Yeoman). Debería aparecer un nuevo cuadro de diálogo preguntándote cada cuántas líneas quieres insertar: una línea en blanco (o el texto que hayas puesto en la propiedad prompt del código anterior). Selecciona un número apropiado y pulsa entrar. Verás cómo el texto seleccionado es sustituido por uno nuevo, pero que contiene líneas en blanco.
 
-    ![Image](images/DepurarExtencion.jpg "Depurara 1")
-    ![Image text](images/Debug.jpg "Depurara 1")
-    ![Image text](images/showInputBox.jpg "Depurara 1")
-    ![Image text](images/funcionando.jpg "UNIR")
+    ![Image](https://i.ibb.co/L86KKWw/Depurar-Extencion.jpg)
+    ![Image](https://i.ibb.co/HCRSJT7/Debug.jpg)
+    ![Image](https://i.ibb.co/nz8c7xP/show-Input-Box.jpg "Depurara 1")
+    ![Image](https://i.ibb.co/qCBbmyS/funcionando.jpg)
 
 <a name="10"></a>
 * **Link del proyecto**
 
     * [github.com](https://github.com/mar2262001/gapline)
 
-<a name="10"></a>
+<a name="11"></a>
 * **Referencias**
 
   * [tsconfig](https://www.typescriptlang.org/tsconfig)
