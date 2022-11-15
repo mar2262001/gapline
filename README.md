@@ -75,7 +75,7 @@ ___
 
       ![Image](https://i.ibb.co/Mgb1Qw8/Name.jpg)
 
-    * La opción de publisher name es por si vamos a publicar la extensión en el repositorio de extensiones de VS Code, pero nosotros no vamos a hacerlo, así que podéis elegir un nombre cualquiera. 
+    * La opción de publisher name es por si vamos a publicar la extensión en el repositorio de extensiones de VS Code, pero nosotros no vamos a hacerlo, así que puedes elegir un nombre cualquiera. 
 
       ![Image](https://i.ibb.co/Y0Lf46B/webpack.jpg)
      
@@ -204,6 +204,9 @@ ___
     <a name="79"></a>
     *  `deactivate`
         *   Función default que es invocada cada que la extension es desactivada, se define en la interfaz {@link Extension} de vscode.
+---
+  > Una extensión debe exportar una activate() función desde su módulo principal y VS Code la invocará solo una vez cuando se emita cualquiera de los eventos de activación especificados. Además, una extensión debe exportar una deactivate()función desde su módulo principal para realizar tareas de limpieza en el cierre de VS Code. La extensión debe devolver una Promesa deactivate() si el proceso de limpieza es asíncrono. Una extensión puede regresar si la limpieza se ejecuta sincrónicamente undefined.deactivate()  -Activation Events. (2021, noviembre 3). Visual Studio Code Extension API. [Link](https://code.visualstudio.com/api/references/activation-events#:~:text=to%20%22*%22.-,Note,-%3A%20An%20extension)
+---
 <a name="8"></a>
 * **Elementos de TypeScript**
   <a name="81"></a>
